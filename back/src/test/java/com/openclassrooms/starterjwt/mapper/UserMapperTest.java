@@ -1,32 +1,22 @@
 package com.openclassrooms.starterjwt.mapper;
 import com.openclassrooms.starterjwt.dto.UserDto;
 import com.openclassrooms.starterjwt.models.User;
+import org.instancio.Instancio;
+import org.instancio.junit.InstancioExtension;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mapstruct.factory.Mappers;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
-
-import java.time.LocalDateTime;
+import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-@ExtendWith(SpringExtension.class)
+@ExtendWith(InstancioExtension.class)
 public class UserMapperTest {
     private final UserMapper userMapper = Mappers.getMapper(UserMapper.class);
 
-
     @Test
-    void shouldMapUserToUserDto() {
-        User user = User.builder()
-                .id(1L)
-                .email("test@example.com")
-                .firstName("firstname")
-                .lastName("lastname")
-                .password("securepassword")
-                .admin(true)
-                .createdAt(LocalDateTime.of(2023, 1, 1, 12, 0))
-                .updatedAt(LocalDateTime.of(2024, 1, 1, 12, 0))
-                .build();
+    void toDto_ValidUser_ReturnsUserDto() {
+        User user = Instancio.create(User.class);
 
         UserDto userDto = userMapper.toDto(user);
 
@@ -43,17 +33,22 @@ public class UserMapperTest {
     }
 
     @Test
-    void shouldMapUserDtoToUser() {
-        UserDto userDto = new UserDto(
-                2L,
-                "test@example.com",
-                "lastname",
-                "firstname",
-                true,
-                "hiddenpassword",
-                LocalDateTime.of(2022, 5, 10, 14, 0),
-                LocalDateTime.of(2023, 6, 15, 10, 30)
-        );
+    void toDto_ListOfValidUsers_ReturnsUserDtoList() {
+        List<User> users = Instancio.ofList(User.class).size(2).create();
+
+        List<UserDto> usersDto = userMapper.toDto(users);
+
+        assertThat(usersDto)
+            .isNotNull()
+            .hasSize(2)
+            .usingRecursiveComparison()
+            .isEqualTo(users);
+
+    }
+
+    @Test
+    void toEntity_ValidUserDto_ReturnsUserEntity() {
+        UserDto userDto = Instancio.create(UserDto.class);
 
         User user = userMapper.toEntity(userDto);
 
@@ -65,7 +60,21 @@ public class UserMapperTest {
         assertThat(user.isAdmin()).isEqualTo(userDto.isAdmin());
         assertThat(user.getCreatedAt()).isEqualTo(userDto.getCreatedAt());
         assertThat(user.getUpdatedAt()).isEqualTo(userDto.getUpdatedAt());
-
         assertThat(user.getPassword()).isNotNull();
     }
+
+    @Test
+    void toEntity_ListOfValidUserDtos_ReturnsUserList() {
+        List<UserDto> usersDto = Instancio.ofList(UserDto.class).size(2).create();
+
+        List<User> users = userMapper.toEntity(usersDto);
+
+        assertThat(users)
+            .isNotNull()
+            .hasSize(2)
+            .usingRecursiveComparison()
+            .isEqualTo(usersDto);
+
+    }
+
 }
