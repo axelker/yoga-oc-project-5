@@ -6,6 +6,8 @@ import static org.mockito.Mockito.when;
 
 import java.util.Optional;
 
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -26,6 +28,7 @@ public class UserServiceTest {
 
     
     @Test
+    @DisplayName("Should return a user when user ID exists.")
     void findById_ExistingUser_ReturnsUser() {
         User mockUser = new User();
         mockUser.setId(1L);
@@ -41,6 +44,7 @@ public class UserServiceTest {
     }
 
     @Test
+    @DisplayName("Should return null when user ID does not exists.")
     void findById_NonExistingUser_ReturnsNull() {
         Long id = 1L;
         when(userRepository.findById(id)).thenReturn(Optional.empty());

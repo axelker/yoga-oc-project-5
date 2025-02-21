@@ -11,6 +11,7 @@ import java.util.Optional;
 
 import org.instancio.Instancio;
 import org.instancio.junit.InstancioExtension;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -31,6 +32,7 @@ public class UserDetailsServiceImplTest {
     UserDetailsServiceImpl userDetailsService;
 
     @Test
+    @DisplayName("Should throw UsernameNotFoundException when not found user.")
     void loadUserByUserName_WithNoUserFound_ThrowUserNameNotFoundException() {
         String email = "test@test.com";
         when(userRepository.findByEmail(email)).thenReturn(Optional.empty());
@@ -39,6 +41,7 @@ public class UserDetailsServiceImplTest {
     }
 
     @Test
+    @DisplayName("Should return correct user details when user exists.")
     void loadUserByUserName_WithUserFound_ReturnCorrectUser() {
         User user = Instancio.create(User.class);
         when(userRepository.findByEmail(anyString())).thenReturn(Optional.of(user));

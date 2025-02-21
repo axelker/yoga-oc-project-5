@@ -6,6 +6,7 @@ import io.jsonwebtoken.*;
 import org.instancio.Instancio;
 import org.instancio.junit.InstancioExtension;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -39,6 +40,7 @@ class JwtUtilsTest {
     }
 
     @Test
+    @DisplayName("Should generate a valid JWT token for an authenticated user.")
     void generateJwtToken_WithAuthenticateUser_ShouldReturnValidToken() {
         UserDetailsImpl userDetails = Instancio.create(UserDetailsImpl.class);
         when(authentication.getPrincipal()).thenReturn(userDetails);
@@ -49,7 +51,8 @@ class JwtUtilsTest {
     }
 
     @Test
-    void getUserNameFromJwtToken_ShouldReturnCorrectUsername() {
+    @DisplayName("Should return correct username from JWT token subject.")
+    void getUserNameFromJwtToken_WithUsernameSubject_ShouldReturnCorrectUsername() {
         String expectedUsername = "testUser";
         String token = Jwts.builder()
                 .setSubject(expectedUsername)
@@ -64,6 +67,7 @@ class JwtUtilsTest {
     }
 
     @Test
+    @DisplayName("Should validate a correctly signed and non-expired JWT token.")
     void validateJwtToken_WithValidToken_ShouldReturnTrue() {
         String token = Jwts.builder()
                 .setSubject("testUser")
@@ -78,6 +82,7 @@ class JwtUtilsTest {
     }
 
     @Test
+    @DisplayName("Should return false when JWT token has an incorrect signature.")
     void validateJwtToken_WithWrongSignature_ShouldReturnFalse() {
         String wrongSecret = "wrongSecretKey";
         String tokenWithWrongSignature = Jwts.builder()
@@ -93,6 +98,7 @@ class JwtUtilsTest {
     }
     
     @Test
+    @DisplayName("Should return false when JWT token is malformed.")
     void validateJwtToken_WithMalformedToken_ShouldReturnFalse() {
         String invalidToken = "invalid.token.structure";
 
@@ -102,6 +108,7 @@ class JwtUtilsTest {
     }
 
     @Test
+    @DisplayName("Should return false when JWT token is expired.")
     void validateJwtToken_WithExpiredToken_ShouldReturnFalse() {
         String expiredToken = Jwts.builder()
                 .setSubject("testUser")
@@ -116,6 +123,7 @@ class JwtUtilsTest {
     }
 
     @Test
+    @DisplayName("Should return false when JWT token is null")
     void validateJwtToken_WithNullToken_ShouldReturnFalse() {
         boolean isValid = jwtUtils.validateJwtToken(null);
 

@@ -13,6 +13,7 @@ import javax.servlet.ServletException;
 import org.instancio.Instancio;
 import org.instancio.junit.InstancioExtension;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -53,6 +54,7 @@ public class AuthTokenFilterTest {
     }
 
     @Test
+    @DisplayName("Valid JWT should authenticate user.")
     void doFilterInternal_WithValidJwt_ShouldAuthenticateUser() throws ServletException, IOException {
         String token = "valid-token";
         String username = "testUser";
@@ -73,7 +75,8 @@ public class AuthTokenFilterTest {
     }
 
     @Test
-    void doFilterInternal_WithInvalidValidJwt_ShouldNotAuthenticateUser() throws ServletException, IOException {
+    @DisplayName("Invalid JWT should not authenticate user.")
+    void doFilterInternal_WithInvalidJwt_ShouldNotAuthenticateUser() throws ServletException, IOException {
         String token = "invalid-token";
         request.addHeader("Authorization", "Bearer " + token);
         when(jwtUtils.validateJwtToken(token)).thenReturn(false);
@@ -85,7 +88,8 @@ public class AuthTokenFilterTest {
     }
 
     @Test
-    void doFilterInternal_WithNoProvidedRequestHeader_ShouldNotAuthenticateUser() throws ServletException, IOException {
+    @DisplayName("No provided Auth request header should not authenticate user.")
+    void doFilterInternal_WithNoProvidedAuthRequestHeader_ShouldNotAuthenticateUser() throws ServletException, IOException {
         authTokenFilter.doFilterInternal(request, response, filterChain);
         
         assertThat(SecurityContextHolder.getContext().getAuthentication()).isNull();

@@ -10,6 +10,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -39,6 +41,7 @@ public class SessionServiceTest {
 
     
     @Test
+    @DisplayName("Should return a session when session ID exists.")
     void getById_ExistingSession_ReturnsSession() {
         Session mockSession = new Session();
         mockSession.setId(1L);
@@ -54,6 +57,7 @@ public class SessionServiceTest {
     }
 
     @Test
+    @DisplayName("Should return null when session ID does not exists.")
     void getById_NonExistingSession_ReturnsNull() {
         Long id = 1L;
         when(sessionRepository.findById(id)).thenReturn(Optional.empty());
@@ -65,6 +69,7 @@ public class SessionServiceTest {
     }
 
     @Test
+    @DisplayName("Should update an existing session.")
     void update_ExistingSession_ReturnsSession() {
         Long sessionId = 1L;
         Session existingSession = new Session();
@@ -85,6 +90,8 @@ public class SessionServiceTest {
     }
 
     @Test
+    @Tag("Participate test")
+    @DisplayName("Should throw NotFoundException when session does not exist for participation.")
     void participate_WithNoExistingSession_ThrowNotFoundException() {
         when(sessionRepository.findById(anyLong())).thenReturn(Optional.empty());
         when(userRepository.findById(anyLong())).thenReturn(Optional.of(new User()));
@@ -96,6 +103,8 @@ public class SessionServiceTest {
     }
 
     @Test
+    @Tag("Participate test")
+    @DisplayName("Should throw NotFoundException when user does not exist for participation.")
     void participate_WithNoExistingUser_ThrowNotFoundException() {
         when(sessionRepository.findById(anyLong())).thenReturn(Optional.of(new Session()));
         when(userRepository.findById(anyLong())).thenReturn(Optional.empty());
@@ -107,6 +116,8 @@ public class SessionServiceTest {
     }
 
     @Test
+    @Tag("Participate test")
+    @DisplayName("Should throw BadRequestException when user already participates in the session.")
     void participate_WithUserAlreadyParticipate_ThrowBadRequestException() {
         Session session = new Session();
         session.setId(1L);
@@ -122,9 +133,9 @@ public class SessionServiceTest {
         verify(userRepository, times(1)).findById(2L);
     }
 
-
-    
     @Test
+    @Tag("Participate test")
+    @DisplayName("Should successfully add a user to a session when not already participating.")
     void participate_WithUserNoAlreadyParticipate_ShouldSaveSessionWithTheNewUser() {
         Session session = new Session();
         session.setId(1L);
@@ -144,6 +155,8 @@ public class SessionServiceTest {
 
 
     @Test
+    @Tag("No Longer Participate test")
+    @DisplayName("Should throw NotFoundException when session does not exist for removal user of the session.")
     void noLongerParticipate_WithNoExistingSession_ThrowNotFoundException() {
         when(sessionRepository.findById(anyLong())).thenReturn(Optional.empty());
 
@@ -153,6 +166,8 @@ public class SessionServiceTest {
     }
 
     @Test
+    @Tag("No Longer Participate test")
+    @DisplayName("Should throw BadRequestException when user does not already participate to the session.")
     void noLongerParticipate_WithUserNoAlreadyParticipate_ThrowBadRequestException() {
         Session session = new Session();
         session.setId(1L);
@@ -167,7 +182,9 @@ public class SessionServiceTest {
     }
 
     @Test
-    void participate_WithUserAlreadyParticipate_ShouldRemoveUserOfSession() {
+    @Tag("No Longer Participate test")
+    @DisplayName("Should remove user already participate from the session.")
+    void noLongerParticipate_WithUserAlreadyParticipate_ShouldRemoveUserOfSession() {
         Session session = new Session();
         session.setId(1L);
         User user = new User();

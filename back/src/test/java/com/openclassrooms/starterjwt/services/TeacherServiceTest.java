@@ -6,6 +6,7 @@ import static org.mockito.Mockito.when;
 
 import java.util.Optional;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -27,6 +28,7 @@ public class TeacherServiceTest {
 
     
     @Test
+    @DisplayName("Should return a teacher when teacher ID exists.")
     void findById_ExistingTeacher_ReturnsTeacher() {
         Teacher mockTeacher = new Teacher();
         mockTeacher.setId(1L);
@@ -42,6 +44,7 @@ public class TeacherServiceTest {
     }
 
     @Test
+    @DisplayName("Should return null when teacher ID does not exists.")
     void findById_NonExistingTeacher_ReturnsNull() {
         Long id = 1L;
         when(teacherRepository.findById(id)).thenReturn(Optional.empty());
