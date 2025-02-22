@@ -1,7 +1,9 @@
 # Yoga Management System
 
 A **Spring Boot and Angular** project for managing yogo sessions, featuring **JWT authentication**, **REST APIs**, and **database integration**.
-The goal is to implement a fully tested system ensuring reliability and maintainability across all layers. 🚀
+
+The goal is to implement a fully tested system ensuring reliability and maintainability across all layers.
+
 ---
 
 ## Table of Contents
