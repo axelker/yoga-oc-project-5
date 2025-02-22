@@ -1,6 +1,7 @@
-package com.openclassrooms.starterjwt.mapper;
+package com.openclassrooms.starterjwt.unit.mapper;
 
 import com.openclassrooms.starterjwt.dto.TeacherDto;
+import com.openclassrooms.starterjwt.mapper.TeacherMapper;
 import com.openclassrooms.starterjwt.models.Teacher;
 import org.instancio.Instancio;
 import org.instancio.junit.InstancioExtension;

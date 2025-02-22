@@ -1,4 +1,4 @@
-package com.openclassrooms.starterjwt.security.services;
+package com.openclassrooms.starterjwt.unit.security.services;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -22,6 +22,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 import com.openclassrooms.starterjwt.models.User;
 import com.openclassrooms.starterjwt.repository.UserRepository;
+import com.openclassrooms.starterjwt.security.services.UserDetailsServiceImpl;
 
 @ExtendWith({MockitoExtension.class,InstancioExtension.class})
 public class UserDetailsServiceImplTest {

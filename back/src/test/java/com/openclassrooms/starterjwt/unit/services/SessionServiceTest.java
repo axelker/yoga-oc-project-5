@@ -1,4 +1,4 @@
-package com.openclassrooms.starterjwt.services;
+package com.openclassrooms.starterjwt.unit.services;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
@@ -24,6 +24,7 @@ import com.openclassrooms.starterjwt.models.Session;
 import com.openclassrooms.starterjwt.models.User;
 import com.openclassrooms.starterjwt.repository.SessionRepository;
 import com.openclassrooms.starterjwt.repository.UserRepository;
+import com.openclassrooms.starterjwt.services.SessionService;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -90,7 +91,7 @@ public class SessionServiceTest {
     }
 
     @Test
-    @Tag("Participate test")
+    @Tag("participate-test")
     @DisplayName("Should throw NotFoundException when session does not exist for participation.")
     void participate_WithNoExistingSession_ThrowNotFoundException() {
         when(sessionRepository.findById(anyLong())).thenReturn(Optional.empty());
@@ -103,7 +104,7 @@ public class SessionServiceTest {
     }
 
     @Test
-    @Tag("Participate test")
+    @Tag("participate-test")
     @DisplayName("Should throw NotFoundException when user does not exist for participation.")
     void participate_WithNoExistingUser_ThrowNotFoundException() {
         when(sessionRepository.findById(anyLong())).thenReturn(Optional.of(new Session()));
@@ -116,7 +117,7 @@ public class SessionServiceTest {
     }
 
     @Test
-    @Tag("Participate test")
+    @Tag("participate-test")
     @DisplayName("Should throw BadRequestException when user already participates in the session.")
     void participate_WithUserAlreadyParticipate_ThrowBadRequestException() {
         Session session = new Session();
@@ -134,7 +135,7 @@ public class SessionServiceTest {
     }
 
     @Test
-    @Tag("Participate test")
+    @Tag("participate-test")
     @DisplayName("Should successfully add a user to a session when not already participating.")
     void participate_WithUserNoAlreadyParticipate_ShouldSaveSessionWithTheNewUser() {
         Session session = new Session();
@@ -155,7 +156,7 @@ public class SessionServiceTest {
 
 
     @Test
-    @Tag("No Longer Participate test")
+    @Tag("no-longer-participate-test")
     @DisplayName("Should throw NotFoundException when session does not exist for removal user of the session.")
     void noLongerParticipate_WithNoExistingSession_ThrowNotFoundException() {
         when(sessionRepository.findById(anyLong())).thenReturn(Optional.empty());
@@ -166,7 +167,7 @@ public class SessionServiceTest {
     }
 
     @Test
-    @Tag("No Longer Participate test")
+    @Tag("no-longer-participate-test")
     @DisplayName("Should throw BadRequestException when user does not already participate to the session.")
     void noLongerParticipate_WithUserNoAlreadyParticipate_ThrowBadRequestException() {
         Session session = new Session();
@@ -182,7 +183,7 @@ public class SessionServiceTest {
     }
 
     @Test
-    @Tag("No Longer Participate test")
+    @Tag("no-longer-participate-test")
     @DisplayName("Should remove user already participate from the session.")
     void noLongerParticipate_WithUserAlreadyParticipate_ShouldRemoveUserOfSession() {
         Session session = new Session();

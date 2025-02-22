@@ -1,5 +1,6 @@
-package com.openclassrooms.starterjwt.security.jwt;
+package com.openclassrooms.starterjwt.unit.security.jwt;
 
+import com.openclassrooms.starterjwt.security.jwt.JwtUtils;
 import com.openclassrooms.starterjwt.security.services.UserDetailsImpl;
 import io.jsonwebtoken.*;
 

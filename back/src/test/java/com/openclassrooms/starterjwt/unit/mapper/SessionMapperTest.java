@@ -1,6 +1,7 @@
-package com.openclassrooms.starterjwt.mapper;
+package com.openclassrooms.starterjwt.unit.mapper;
 
 import com.openclassrooms.starterjwt.dto.SessionDto;
+import com.openclassrooms.starterjwt.mapper.SessionMapper;
 import com.openclassrooms.starterjwt.models.Session;
 import com.openclassrooms.starterjwt.models.Teacher;
 import com.openclassrooms.starterjwt.models.User;
