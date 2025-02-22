@@ -138,6 +138,7 @@
 								<exclude>**/*$MockitoMock*.*</exclude>
                     			<exclude>**/*$auxiliary*.*</exclude>
 								<exclude>**/dto/*</exclude>
+								<exclude>**/SpringBootSecurityJwtApplication*</exclude>
 							</excludes>
 						</configuration>
 					</execution>
@@ -150,6 +151,7 @@
 						<configuration>
 							<excludes>
 								<exclude>**/dto/*</exclude>
+								<exclude>**/SpringBootSecurityJwtApplication*</exclude>
 							</excludes>
 							<rules>
 								<rule>
