@@ -73,6 +73,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>test</scope>
+		</dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -132,6 +138,7 @@
 								<exclude>**/*$MockitoMock*.*</exclude>
                     			<exclude>**/*$auxiliary*.*</exclude>
 								<exclude>**/dto/*</exclude>
+								<exclude>**/SpringBootSecurityJwtApplication*</exclude>
 							</excludes>
 						</configuration>
 					</execution>
@@ -144,6 +151,7 @@
 						<configuration>
 							<excludes>
 								<exclude>**/dto/*</exclude>
+								<exclude>**/SpringBootSecurityJwtApplication*</exclude>
 							</excludes>
 							<rules>
 								<rule>
