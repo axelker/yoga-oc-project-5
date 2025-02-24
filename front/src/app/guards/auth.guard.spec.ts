@@ -29,6 +29,10 @@ describe('AuthGuard', () => {
     guard = TestBed.inject(AuthGuard);
   });
 
+  afterEach(() => {
+    jest.clearAllMocks();
+  });
+
   it('should be created', () => {
     expect(guard).toBeTruthy();
   });
