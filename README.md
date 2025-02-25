@@ -147,3 +147,13 @@ Generate coverage report
 Report is available here:
 
 > front/coverage/jest/lcov-report/index.html
+
+
+#### Coverage screens
+
+![Backend](ressources/coverage/coverage-be.png)
+
+![Frontend](ressources/coverage/coverage-front.png)
+
+![E2E](ressources/coverage/coverage-e2e.png)
+

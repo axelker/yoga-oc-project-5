@@ -1,234 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1740402113522" clover="3.2.0">
-  <project timestamp="1740402113522" name="All files">
-    <metrics statements="342" coveredstatements="114" conditionals="70" coveredconditionals="39" methods="106" coveredmethods="49" elements="518" coveredelements="202" complexity="0" loc="342" ncloc="342" packages="17" files="32" classes="32"/>
+<coverage generated="1740516903416" clover="3.2.0">
+  <project timestamp="1740516903416" name="All files">
+    <metrics statements="343" coveredstatements="309" conditionals="70" coveredconditionals="60" methods="107" coveredmethods="87" elements="520" coveredelements="456" complexity="0" loc="343" ncloc="343" packages="17" files="32" classes="32"/>
     <package name="src">
       <metrics statements="4" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="0"/>
       <file name="main.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\main.ts">
         <metrics statements="4" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="0"/>
-        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="7" count="37" type="cond" truecount="1" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <line num="11" count="37" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.app">
-      <metrics statements="27" coveredstatements="25" conditionals="6" coveredconditionals="6" methods="11" coveredmethods="9"/>
+      <metrics statements="27" coveredstatements="27" conditionals="6" coveredconditionals="6" methods="11" coveredmethods="11"/>
       <file name="app-routing.module.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\app-routing.module.ts">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="32" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="37" type="stmt"/>
+        <line num="12" count="37" type="stmt"/>
+        <line num="17" count="23" type="stmt"/>
+        <line num="32" count="74" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="app.component.html" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\app.component.html">
-        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="108" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="37" type="stmt"/>
+        <line num="3" count="37" type="stmt"/>
+        <line num="4" count="4122" type="stmt"/>
+        <line num="5" count="23" type="stmt"/>
+        <line num="6" count="23" type="stmt"/>
+        <line num="7" count="29" type="stmt"/>
+        <line num="9" count="37" type="stmt"/>
+        <line num="10" count="41" type="stmt"/>
+        <line num="11" count="41" type="stmt"/>
+        <line num="12" count="41" type="stmt"/>
+        <line num="15" count="37" type="stmt"/>
+        <line num="16" count="37" type="stmt"/>
+        <line num="17" count="37" type="stmt"/>
+        <line num="18" count="37" type="stmt"/>
       </file>
       <file name="app.component.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\app.component.ts">
-        <metrics statements="7" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
-        <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="21" count="54" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="13" count="74" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="37" type="stmt"/>
+        <line num="16" count="37" type="stmt"/>
+        <line num="17" count="37" type="stmt"/>
+        <line num="21" count="2061" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
       </file>
       <file name="app.module.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\app.module.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="45" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="37" type="stmt"/>
+        <line num="45" count="74" type="cond" truecount="2" falsecount="0"/>
       </file>
     </package>
     <package name="src.app.components.me">
-      <metrics statements="30" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="9" coveredmethods="1"/>
+      <metrics statements="30" coveredstatements="29" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="7"/>
       <file name="me.component.html" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\components\me\me.component.html">
-        <metrics statements="18" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
+        <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="72" type="stmt"/>
+        <line num="13" count="36" type="stmt"/>
+        <line num="14" count="36" type="stmt"/>
+        <line num="15" count="32" type="stmt"/>
+        <line num="16" count="32" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="36" type="stmt"/>
+        <line num="26" count="36" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
       </file>
       <file name="me.component.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\components\me\me.component.ts">
-        <metrics statements="12" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="1"/>
-        <line num="13" count="2" type="cond" truecount="0" falsecount="2"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
+        <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="6"/>
+        <line num="13" count="74" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.app.components.not-found">
-      <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="not-found.component.html" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\components\not-found\not-found.component.html">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
       </file>
       <file name="not-found.component.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\components\not-found\not-found.component.ts">
-        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="2" type="cond" truecount="0" falsecount="2"/>
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="8" count="74" type="cond" truecount="2" falsecount="0"/>
       </file>
     </package>
     <package name="src.app.features.auth">
       <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="auth-routing.module.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\auth\auth-routing.module.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="16" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="37" type="stmt"/>
+        <line num="16" count="74" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="auth.module.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\auth\auth.module.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="36" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="37" type="stmt"/>
+        <line num="36" count="74" type="cond" truecount="2" falsecount="0"/>
       </file>
     </package>
     <package name="src.app.features.auth.components.login">
-      <metrics statements="26" coveredstatements="25" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="6"/>
+      <metrics statements="26" coveredstatements="26" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
       <file name="login.component.html" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\auth\components\login\login.component.html">
         <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="84" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="84" type="cond" truecount="2" falsecount="0"/>
-        <line num="14" count="84" type="stmt"/>
-        <line num="16" count="85" type="cond" truecount="2" falsecount="0"/>
-        <line num="20" count="84" type="stmt"/>
-        <line num="21" count="84" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+        <line num="1" count="29" type="stmt"/>
+        <line num="4" count="29" type="stmt"/>
+        <line num="6" count="2204" type="stmt"/>
+        <line num="7" count="29" type="stmt"/>
+        <line num="9" count="29" type="stmt"/>
+        <line num="10" count="29" type="stmt"/>
+        <line num="11" count="29" type="stmt"/>
+        <line num="12" count="2204" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="2204" type="stmt"/>
+        <line num="16" count="2233" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="2204" type="stmt"/>
+        <line num="21" count="2204" type="stmt"/>
+        <line num="22" count="29" type="stmt"/>
       </file>
       <file name="login.component.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\auth\components\login\login.component.ts">
-        <metrics statements="13" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
-        <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="43" count="1" type="stmt"/>
-        <line num="45" count="1" type="stmt"/>
-        <line num="46" count="1" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="14" count="74" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="29" type="stmt"/>
+        <line num="16" count="29" type="stmt"/>
+        <line num="18" count="29" type="stmt"/>
+        <line num="35" count="29" type="stmt"/>
+        <line num="36" count="29" type="stmt"/>
+        <line num="37" count="29" type="stmt"/>
+        <line num="38" count="29" type="stmt"/>
+        <line num="42" count="25" type="stmt"/>
+        <line num="43" count="25" type="stmt"/>
+        <line num="45" count="23" type="stmt"/>
+        <line num="46" count="23" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.app.features.auth.components.register">
-      <metrics statements="28" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="1"/>
+      <metrics statements="28" coveredstatements="28" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
       <file name="register.component.html" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\auth\components\register\register.component.html">
-        <metrics statements="18" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="4" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
+        <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="6" count="660" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="21" count="660" type="stmt"/>
+        <line num="22" count="660" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
       </file>
       <file name="register.component.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\auth\components\register\register.component.ts">
-        <metrics statements="10" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="1"/>
-        <line num="12" count="2" type="cond" truecount="0" falsecount="2"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="57" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="12" count="74" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="50" count="6" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="56" count="8" type="stmt"/>
+        <line num="57" count="8" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="59" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.app.features.auth.services">
-      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
       <file name="auth.service.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\auth\services\auth.service.ts">
-        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
-        <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="11" count="74" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="37" type="stmt"/>
+        <line num="15" count="37" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="22" count="25" type="stmt"/>
       </file>
     </package>
     <package name="src.app.features.sessions">
       <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="sessions-routing.module.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\sessions\sessions-routing.module.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="23" type="stmt"/>
+        <line num="18" count="46" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="sessions.module.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\sessions\sessions.module.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="23" type="stmt"/>
+        <line num="19" count="23" type="stmt"/>
+        <line num="43" count="46" type="cond" truecount="2" falsecount="0"/>
       </file>
     </package>
     <package name="src.app.features.sessions.components.detail">
-      <metrics statements="67" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="18" coveredmethods="1"/>
+      <metrics statements="67" coveredstatements="53" conditionals="2" coveredconditionals="2" methods="18" coveredmethods="8"/>
       <file name="detail.component.html" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\sessions\components\detail\detail.component.html">
-        <metrics statements="42" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
+        <metrics statements="42" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="132" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="96" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="92" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="92" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
@@ -236,182 +236,183 @@
         <line num="22" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="32" count="92" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="43" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="49" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="59" count="0" type="stmt"/>
-        <line num="60" count="0" type="stmt"/>
-        <line num="61" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="63" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
-        <line num="65" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="47" count="4" type="stmt"/>
+        <line num="48" count="4" type="stmt"/>
+        <line num="49" count="96" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
+        <line num="53" count="4" type="stmt"/>
+        <line num="54" count="4" type="stmt"/>
+        <line num="55" count="96" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="59" count="4" type="stmt"/>
+        <line num="60" count="96" type="stmt"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="62" count="4" type="stmt"/>
+        <line num="63" count="4" type="stmt"/>
+        <line num="64" count="96" type="stmt"/>
+        <line num="65" count="96" type="stmt"/>
+        <line num="69" count="4" type="stmt"/>
       </file>
       <file name="detail.component.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\sessions\components\detail\detail.component.ts">
-        <metrics statements="25" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="14" coveredmethods="1"/>
-        <line num="16" count="2" type="cond" truecount="0" falsecount="2"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
+        <metrics statements="25" coveredstatements="21" conditionals="2" coveredconditionals="2" methods="14" coveredmethods="7"/>
+        <line num="16" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
         <line num="44" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="51" count="0" type="stmt"/>
-        <line num="52" count="0" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
         <line num="58" count="0" type="stmt"/>
         <line num="62" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="70" count="0" type="stmt"/>
-        <line num="71" count="0" type="stmt"/>
+        <line num="66" count="4" type="stmt"/>
+        <line num="69" count="4" type="stmt"/>
+        <line num="70" count="4" type="stmt"/>
+        <line num="71" count="4" type="stmt"/>
         <line num="73" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.app.features.sessions.components.form">
-      <metrics statements="59" coveredstatements="1" conditionals="16" coveredconditionals="0" methods="10" coveredmethods="1"/>
+      <metrics statements="59" coveredstatements="49" conditionals="16" coveredconditionals="9" methods="10" coveredmethods="6"/>
       <file name="form.component.html" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\sessions\components\form\form.component.html">
-        <metrics statements="31" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="0" type="stmt"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
+        <metrics statements="31" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="324" type="stmt"/>
+        <line num="9" count="324" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="324" type="stmt"/>
+        <line num="13" count="324" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="324" type="stmt"/>
+        <line num="26" count="302" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="324" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
       </file>
       <file name="form.component.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\sessions\components\form\form.component.ts">
-        <metrics statements="28" coveredstatements="1" conditionals="16" coveredconditionals="0" methods="9" coveredmethods="1"/>
-        <line num="15" count="2" type="cond" truecount="0" falsecount="2"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <metrics statements="28" coveredstatements="18" conditionals="16" coveredconditionals="9" methods="9" coveredmethods="5"/>
+        <line num="15" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="34" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="35" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="39" count="0" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
         <line num="43" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="53" count="0" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="2" type="stmt"/>
         <line num="55" count="0" type="stmt"/>
         <line num="57" count="0" type="stmt"/>
         <line num="59" count="0" type="stmt"/>
-        <line num="64" count="0" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
         <line num="88" count="0" type="stmt"/>
         <line num="89" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.app.features.sessions.components.list">
-      <metrics statements="33" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <metrics statements="34" coveredstatements="34" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
       <file name="list.component.html" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\sessions\components\list\list.component.html">
-        <metrics statements="28" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="16" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="16" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
+        <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="25" type="stmt"/>
+        <line num="4" count="25" type="stmt"/>
+        <line num="5" count="402" type="stmt"/>
+        <line num="6" count="18" type="stmt"/>
+        <line num="7" count="18" type="stmt"/>
+        <line num="9" count="25" type="stmt"/>
+        <line num="10" count="25" type="stmt"/>
+        <line num="11" count="402" type="stmt"/>
+        <line num="13" count="174" type="stmt"/>
+        <line num="14" count="34" type="stmt"/>
+        <line num="15" count="174" type="stmt"/>
+        <line num="16" count="34" type="stmt"/>
+        <line num="18" count="34" type="stmt"/>
+        <line num="19" count="34" type="stmt"/>
+        <line num="20" count="34" type="stmt"/>
+        <line num="21" count="34" type="stmt"/>
+        <line num="23" count="174" type="stmt"/>
+        <line num="24" count="34" type="stmt"/>
+        <line num="26" count="34" type="stmt"/>
+        <line num="27" count="140" type="stmt"/>
+        <line num="28" count="34" type="stmt"/>
+        <line num="29" count="34" type="stmt"/>
+        <line num="31" count="140" type="stmt"/>
+        <line num="32" count="50" type="stmt"/>
+        <line num="33" count="24" type="stmt"/>
+        <line num="34" count="24" type="stmt"/>
+        <line num="36" count="34" type="stmt"/>
+        <line num="38" count="25" type="stmt"/>
       </file>
       <file name="list.component.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\sessions\components\list\list.component.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-        <line num="13" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="23" count="8" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="13" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="25" type="stmt"/>
+        <line num="18" count="25" type="stmt"/>
+        <line num="19" count="25" type="stmt"/>
+        <line num="22" count="25" type="stmt"/>
+        <line num="25" count="271" type="stmt"/>
       </file>
     </package>
     <package name="src.app.features.sessions.services">
-      <metrics statements="10" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="3"/>
+      <metrics statements="10" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="6"/>
       <file name="session-api.service.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\features\sessions\services\session-api.service.ts">
-        <metrics statements="10" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="3"/>
-        <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
+        <metrics statements="10" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="9" coveredmethods="6"/>
+        <line num="9" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="23" type="stmt"/>
+        <line num="13" count="23" type="stmt"/>
+        <line num="17" count="25" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
@@ -421,74 +422,74 @@
       <metrics statements="14" coveredstatements="10" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="6"/>
       <file name="auth.guard.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\guards\auth.guard.ts">
         <metrics statements="7" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
-        <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="74" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="23" type="stmt"/>
+        <line num="10" count="23" type="stmt"/>
+        <line num="15" count="27" type="cond" truecount="1" falsecount="1"/>
         <line num="16" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="19" count="27" type="stmt"/>
       </file>
       <file name="unauth.guard.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\guards\unauth.guard.ts">
         <metrics statements="7" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
-        <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="15" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="74" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="35" type="stmt"/>
+        <line num="10" count="35" type="stmt"/>
+        <line num="15" count="39" type="cond" truecount="1" falsecount="1"/>
         <line num="16" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
+        <line num="19" count="39" type="stmt"/>
       </file>
     </package>
     <package name="src.app.interceptors">
       <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <file name="jwt.interceptor.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\interceptors\jwt.interceptor.ts">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
-        <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
+        <line num="6" count="74" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="29" type="stmt"/>
+        <line num="10" count="78" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="45" type="stmt"/>
+        <line num="17" count="78" type="stmt"/>
       </file>
     </package>
     <package name="src.app.services">
-      <metrics statements="21" coveredstatements="10" conditionals="6" coveredconditionals="2" methods="14" coveredmethods="7"/>
+      <metrics statements="21" coveredstatements="21" conditionals="6" coveredconditionals="6" methods="14" coveredmethods="14"/>
       <file name="session.service.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\services\session.service.ts">
-        <metrics statements="11" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="5"/>
-        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="16" count="54" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+        <line num="8" count="74" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="37" type="stmt"/>
+        <line num="13" count="37" type="stmt"/>
+        <line num="16" count="2061" type="stmt"/>
+        <line num="20" count="23" type="stmt"/>
+        <line num="21" count="23" type="stmt"/>
+        <line num="22" count="23" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="32" count="27" type="stmt"/>
       </file>
       <file name="teacher.service.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\services\teacher.service.ts">
-        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
-        <line num="9" count="2" type="cond" truecount="0" falsecount="2"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="9" count="46" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
       </file>
       <file name="user.service.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\app\services\user.service.ts">
-        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
-        <line num="9" count="2" type="cond" truecount="0" falsecount="2"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="9" count="74" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.environments">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="environment.ts" path="C:\Users\33634\Desktop\dev-info\openclassroom\projet-fullstack-angular\Projet_5\Testez-une-application-full-stack\front\src\environments\environment.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="37" type="stmt"/>
       </file>
     </package>
   </project>
