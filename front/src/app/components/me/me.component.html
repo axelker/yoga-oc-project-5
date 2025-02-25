@@ -22,8 +22,8 @@
         </div>
         <div fxLayoutAlign="space-between center" class="p2 w100">
 
-          <p><i>Create at: </i> {{ user.createdAt | date: 'longDate'}}</p>
-          <p><i>Last update: </i> {{ user.updatedAt| date: 'longDate'}}</p>
+          <p data-test-id="create-user-date"><i>Create at: </i> {{ user.createdAt | date: 'longDate'}}</p>
+          <p data-test-id="update-user-date"><i>Last update: </i> {{ user.updatedAt| date: 'longDate'}}</p>
         </div>
       </div>
     </mat-card-content>
