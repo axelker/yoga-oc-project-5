@@ -9,13 +9,13 @@
       </div>
     </mat-card-title>
     <mat-card-content>
-      <div *ngIf="user" fxLayout="column" fxLayoutAlign="start center">
-        <p>Name: {{ user.firstName }} {{ user.lastName | uppercase }}</p>
-        <p>Email: {{ user.email }}</p>
-        <p *ngIf="user.admin" class="my2">You are admin</p>
-        <div *ngIf="!user.admin" fxLayout="column" class="my2" fxLayoutAlign="center center">
+      <div data-test-id="user-informations" *ngIf="user" fxLayout="column" fxLayoutAlign="start center">
+        <p data-test-id="user-name">Name: {{ user.firstName }} {{ user.lastName | uppercase }}</p>
+        <p data-test-id="user-email">Email: {{ user.email }}</p>
+        <p data-test-id="admin-text" *ngIf="user.admin" class="my2">You are admin</p>
+        <div data-test-id="delete-section" *ngIf="!user.admin" fxLayout="column" class="my2" fxLayoutAlign="center center">
           <p>Delete my account:</p>
-          <button mat-raised-button color="warn" (click)="delete()">
+          <button data-test-id="delete-button" mat-raised-button color="warn" (click)="delete()">
             <mat-icon>delete</mat-icon>
             <span class="ml1">Detail</span>
           </button>

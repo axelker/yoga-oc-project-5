@@ -1,6 +1,6 @@
 # Yoga Management System
 
-A **Spring Boot and Angular** project for managing yogo sessions, featuring **JWT authentication**, **REST APIs**, and **database integration**.
+A **Spring Boot and Angular** project for managing yoga sessions, featuring **JWT authentication**, **REST APIs**, and **database integration**.
 
 The goal is to implement a fully tested system ensuring reliability and maintainability across all layers.
 
@@ -107,4 +107,43 @@ back\target\site\index.html
 
 ### Executing program FRONT
 
-TODO
+Install dependencies:
+
+> npm install
+
+Launch Front-end:
+
+> npm run start;
+
+#### Test
+
+####" E2E
+
+Launching e2e test:
+
+> npm run e2e
+
+Generate coverage report (you should launch e2e test before):
+
+> npm run e2e:coverage
+
+Report is available here:
+
+> front/coverage/lcov-report/index.html
+
+#### Unitary test
+
+Launching test:
+
+> npm run test
+
+for following change:
+
+> npm run test:watch
+
+Generate coverage report
+
+> npm run test:coverage
+Report is available here:
+
+> front/coverage/jest/lcov-report/index.html
