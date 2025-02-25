@@ -87,7 +87,7 @@ describe('Account information Page', () => {
     })
 
   
-      it('Displays user information correctly', () => {
+      it('Display user information correctly', () => {
         cy.intercept('DELETE', `/api/user/${user.id}`, {
           statusCode: 200,
         }).as('deleteAccount');

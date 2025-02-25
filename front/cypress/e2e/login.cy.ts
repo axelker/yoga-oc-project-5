@@ -24,7 +24,7 @@ describe('Login Page', () => {
     cy.url().should('include', '/sessions')
   })
 
-  it('Should displays an error message when login fails', () => {
+  it('Should display an error message when login fails', () => {
     cy.visit('/login')
 
     cy.intercept('POST', '/api/auth/login', {
