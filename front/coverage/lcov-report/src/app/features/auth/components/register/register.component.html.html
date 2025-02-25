@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/27</span>
+                <span class='fraction'>27/27</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/1</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/18</span>
+                <span class='fraction'>18/18</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -88,54 +88,54 @@
 <a name='L23'></a><a href='#L23'>23</a>
 <a name='L24'></a><a href='#L24'>24</a>
 <a name='L25'></a><a href='#L25'>25</a>
-<a name='L26'></a><a href='#L26'>26</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<a name='L26'></a><a href='#L26'>26</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">616x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">616x</span>
+<span class="cline-any cline-yes">616x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js"><span class="cstat-no" title="statement not covered" >&lt;div class="register" fxLayout="row" fxLayoutAlign="center center"&gt;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;div class="register" fxLayout="row" fxLayoutAlign="center center"&gt;
     &lt;mat-card&gt;
         &lt;mat-card-header fxLayoutAlign="center center"&gt;
-            &lt;mat-card-title&gt;<span class="cstat-no" title="statement not covered" >Register<span class="cstat-no" title="statement not covered" >&lt;</span>/mat-card-title&gt;</span>
+            &lt;mat-card-title&gt;Register&lt;/mat-card-title&gt;
         &lt;/mat-card-header&gt;
-<span class="cstat-no" title="statement not covered" >        &lt;form class="register-form" <span class="cstat-no" title="statement not covered" >[</span>formGroup]="form" <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(</span>ngSubmit)="s</span></span>ubmit()"&gt;
-<span class="cstat-no" title="statement not covered" >            &lt;mat-card-content fxLayout="column"&gt;</span>
+        &lt;form class="register-form" [formGroup]="form" (ngSubmit)="submit()"&gt;
+            &lt;mat-card-content fxLayout="column"&gt;
                 &lt;mat-form-field fxFlex&gt;
-<span class="cstat-no" title="statement not covered" >                    &lt;input matInput placeholder="First name" formControlName="firstName"&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;/mat-form-field&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;mat-form-field fxFlex&gt;</span>
-<span class="cstat-no" title="statement not covered" >                    &lt;input matInput placeholder="Last name" formControlName="lastName"&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;/mat-form-field&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;mat-form-field fxFlex&gt;</span>
-<span class="cstat-no" title="statement not covered" >                    &lt;input matInput placeholder="Email" formControlName="email"&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;/mat-form-field&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;mat-form-field fxFlex&gt;</span>
-<span class="cstat-no" title="statement not covered" >                    &lt;input matInput placeholder="Password" formControlName="password"&gt;</span>
-<span class="cstat-no" title="statement not covered" >                &lt;/mat-form-field&gt;</span>
+                    &lt;input matInput placeholder="First name" formControlName="firstName"&gt;
+                &lt;/mat-form-field&gt;
+                &lt;mat-form-field fxFlex&gt;
+                    &lt;input matInput placeholder="Last name" formControlName="lastName"&gt;
+                &lt;/mat-form-field&gt;
+                &lt;mat-form-field fxFlex&gt;
+                    &lt;input matInput placeholder="Email" formControlName="email"&gt;
+                &lt;/mat-form-field&gt;
+                &lt;mat-form-field fxFlex&gt;
+                    &lt;input matInput placeholder="Password" formControlName="password"&gt;
+                &lt;/mat-form-field&gt;
             &lt;/mat-card-content&gt;
-<span class="cstat-no" title="statement not covered" >            &lt;button mat-raised-button color="primary" type="submit" <span class="cstat-no" title="statement not covered" >[</span>disabled]="form.invalid"&gt;<span class="cstat-no" title="statement not covered" >S</span>ubmit<span class="cstat-no" title="statement not covered" >&lt;</span>/button&gt;</span>
-<span class="cstat-no" title="statement not covered" >            &lt;span *<span class="cstat-no" title="statement not covered" >n</span>gIf="onError" class="error ml2"&gt;<span class="cstat-no" title="statement not covered" >A</span>n error occurred<span class="cstat-no" title="statement not covered" >&lt;</span>/span&gt;</span>
-<span class="cstat-no" title="statement not covered" >        &lt;/form&gt;</span>
+            &lt;button mat-raised-button color="primary" type="submit" [disabled]="form.invalid"&gt;Submit&lt;/button&gt;
+            &lt;span *ngIf="onError" class="error ml2"&gt;An error occurred&lt;/span&gt;
+        &lt;/form&gt;
     &lt;/mat-card&gt;
 &lt;/div&gt;
 &nbsp;</pre></td></tr></table></pre>
@@ -145,7 +145,7 @@
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2025-02-24T13:01:53.323Z
+                at 2025-02-25T16:10:45.586Z
             </div>
         <script src="../../../../../../prettify.js"></script>
         <script>
