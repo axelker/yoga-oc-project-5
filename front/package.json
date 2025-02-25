@@ -6,6 +6,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "ng lint",
+    "test:coverage":"npm run test -- --coverage",
     "e2e": "ng e2e",
     "e2e:ci": "ng run yoga:e2e-ci",
     "e2e:coverage": "npx nyc report --reporter=lcov --reporter=text-summary",
